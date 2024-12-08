@@ -4,9 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.WindowCompat
 import com.example.study.AppConstants
 import com.example.study.R
 
@@ -14,12 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge() // Status bar trong suốt trong các phiên bản
         setContentView(R.layout.activity_main) // Set view layout
-
-//      Cập nhật màu sắc biểu tượng trên thanh status bar có độ tương phản
-        WindowCompat.getInsetsController(window, window.decorView).isAppearanceLightStatusBars =
-            true
 
     }
 

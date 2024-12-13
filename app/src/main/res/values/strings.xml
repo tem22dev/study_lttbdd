@@ -2,4 +2,11 @@
     <string name="app_name">study</string>
     <string name="sign_in">Sign In</string>
     <string name="welcome_login">Hi, Welcome back, you have been missed</string>
+    <string-array name="list_array">
+        <item>OOP</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>PHP</item>
+        <item>Android</item>
+    </string-array>
 </resources>
